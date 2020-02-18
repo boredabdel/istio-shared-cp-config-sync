@@ -1,1 +1,2 @@
-config_sync_key.*
+config_sync_key*
+config_sync.yaml
