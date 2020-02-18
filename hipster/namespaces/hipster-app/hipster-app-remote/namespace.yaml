@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: hipster
+  annotations:
+    configmanagement.gke.io/cluster-selector: remote-cluster-selector
+  labels:
+    location: remote
+    istio-injection: enabled

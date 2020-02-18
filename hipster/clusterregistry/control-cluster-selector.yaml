@@ -1,0 +1,8 @@
+kind: ClusterSelector
+apiVersion: configmanagement.gke.io/v1
+metadata:
+  name: control-cluster-selector
+spec:
+  selector:
+    matchLabels:
+      location: control
